@@ -10,336 +10,15 @@
     <link rel="stylesheet" href="./assets/css/navigation.css">
     <link rel="stylesheet" href="./assets/css/profile.css">
     <link rel="stylesheet" href="./assets/css/about.css">
-    <link rel="stylesheet" href="media-queries.css">
+    <link rel="stylesheet" href="./assets/css/project-card.css">
+    <link rel="stylesheet" href="./assets/css/projects-showcase.css">
+    <link rel="stylesheet" href="assets/css/media-queries.css">
 </head>
 <body>
-<nav id="desktop-nav">
-    <div class="logo">Mohamed El Amine Meghni</div>
-    <div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-</nav>
-<nav id="hamburger-nav">
-    <div class="logo">Mohamed El Amine</div>
-    <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <ul class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </ul>
-    </div>
-</nav>
-<section id="profile">
-    <div class="section__pic-container">
-        <img src="assets/pictures/mohamed-el-amine-meghni.png" alt="Mohamed El Amine Meghni"/>
-    </div>
-    <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Mohamed El Amine Meghni</h1>
-        <p class="section__text__p2">Backend Developer</p>
-        <div class="btn-container">
-            <button
-                    class="btn btn-color-2"
-                    onclick="window.open('./assets/resume/resume.pdf')"
-            >
-                Download CV
-            </button>
-            <button class="btn btn-color-1" onclick="location.href='./#contact'">
-                Contact Info
-            </button>
-        </div>
-        <div id="socials-container">
-            <img
-                    src="./assets/icons/linkedin-icon.svg"
-                    alt="My LinkedIn profile"
-                    class="icon"
-                    onclick="window.open('https://www.linkedin.com/in/mohamed-el-amine-meghni-1684a41a3', '_blank')"
-            />
-            <img
-                    src="./assets/icons/github-icon.svg"
-                    alt="My Github profile"
-                    class="icon"
-                    onclick="window.open('https://github.com/GTS-MEGHNI', '_blank')"
-            />
-        </div>
-    </div>
-</section>
-<section id="about">
-    <p class="section__text__p1">Get To Know More</p>
-    <h1 class="title">About Me</h1>
-    <div class="section-container">
-        <div class="section__pic-container">
-            <img
-                    src="./assets/pictures/coding-illustration.jpg"
-                    alt="Profile picture"
-                    class="about-pic"
-            />
-        </div>
-        <div class="about-details-container">
-            <div class="about-containers">
-                <div class="details-container">
-                    <img
-                            src="./assets/icons/experience-icon.png"
-                            alt="Experience icon"
-                            class="icon"
-                    />
-                    <h3>Experience</h3>
-                    <p><span style="font-weight: 600">5</span> years <br/>Backend Development</p>
-                </div>
-                <div class="details-container">
-                    <img
-                            src="./assets/icons/education-icon.png"
-                            alt="Education icon"
-                            class="icon"
-                    />
-                    <h3>Education</h3>
-                    <p>B.Sc. Bachelors Degree<br/>M.Sc. Masters Degree</p>
-                </div>
-            </div>
-            <div class="text-container">
-                <p>
-                    With more than 5 years of hands-on experience, I am a <span class="important">professional backend developer</span>
-                    specializing in
-                    <span class="important">Laravel</span>. My dedication lies in architecting solutions for medium and
-                    large-scale projects,
-                    showcasing proficiency in Back End Development and API design. As a senior Laravel developer I excel
-                    in meeting client requirements and contribute to business growth by delivering efficient and
-                    customized solutions.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="experience">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Experience</h1>
-    <div class="experience-details-container">
-        <div class="about-containers">
-            <div class="details-container">
-                <h2 class="experience-sub-title">Languages</h2>
-                <div class="article-container">
-                    <article>
-                        <img src="./assets/icons/html-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>HTML</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/css-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>CSS</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/javascript-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>JavaScript</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/typescript-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>TypeScript</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/php-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>PHP</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/mysql-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>MySQL</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/python-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>Python</h3>
-                            <p>Intermediate</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="details-container">
-                <h2 class="experience-sub-title">Frameworks & Libraries</h2>
-                <div class="article-container">
-                    <article>
-                        <img src="./assets/icons/laravel-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>Laravel</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/vue-js-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>Vue.js</h3>
-                            <p>Intermediate</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/tailwind-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>Tailwind</h3>
-                            <p>Intermediate</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/tensorflow-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>TensorFlow</h3>
-                            <p>Basic</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="details-container">
-                <h2 class="experience-sub-title">Tools & Technologies</h2>
-                <div class="article-container">
-                    <article>
-                        <img src="./assets/icons/git-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>Git</h3>
-                            <p>Intermediate</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/phpstorm-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>PhpStorm</h3>
-                            <p>Favourite IDE ❤️</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/insomnia-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>Insomnia</h3>
-                            <p>Intermediate</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/postman-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>Postman</h3>
-                            <p>Intermediate</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/swagger-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>Swagger</h3>
-                            <p>Intermediate</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/aws-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>Amazon</h3>
-                            <p>Basic</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/material-design-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>Material Design</h3>
-                            <p>Intermediate</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/fluent-design-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>Fluent Design</h3>
-                            <p>Basic</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/jira-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>Jira</h3>
-                            <p>Advanced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/icons/slack-icon.svg" alt="Experience icon" class="icon"/>
-                        <div>
-                            <h3>Slack</h3>
-                            <p>Advanced</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
-    <div style="text-align: center; margin-top: 6rem">
-        <img class="illustration-image" width="600" src="./assets/illustrations/app-development.svg" alt="">
-    </div>
-</section>
-<section id="contact">
-    <p class="section__text__p1">Get in Touch</p>
-    <h1 class="title">Contact Me</h1>
-    <div class="contact-info-upper-container">
-        <img
-                src="./assets/icons/linkedin-icon.svg"
-                alt="My LinkedIn profile"
-                class="icon"
-                title="https://www.linkedin.com/in/mohamed-el-amine-meghni-1684a41a3"
-                onclick="window.open('https://www.linkedin.com/in/mohamed-el-amine-meghni-1684a41a3', '_blank')"
-        />
-        <img
-                src="./assets/icons/github-icon.svg"
-                alt="My Github profile"
-                class="icon"
-                title="https://github.com/GTS-MEGHNI"
-                onclick="window.open('https://github.com/GTS-MEGHNI', '_blank')"
-        />
-        <img
-                src="./assets/icons/gmail-icon.svg"
-                alt="My Gmail Address"
-                class="icon"
-                title="meghni.mohamed.el.amine@gmail.com"
-                onclick="window.open('mailto:meghni.mohamed.el.amine@gmail.com', '_blank')"
-        />
-        <img
-                src="./assets/icons/whatsapp-icon.svg"
-                alt="My Whatsapp"
-                class="icon"
-                onclick="window.open('https://wa.me/+213549136722', '_blank')"
-        />
-        <img
-                src="./assets/icons/instagram-icon.svg"
-                alt="My Instagram profile"
-                class="icon"
-                onclick="window.open('https://www.instagram.com/gts_meghni', '_blank')"
-        />
-    </div>
-</section>
-<footer>
-    <nav>
-        <div class="nav-links-container">
+<div class="container">
+    <nav id="desktop-nav">
+        <div class="logo">Mohamed El Amine Meghni</div>
+        <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
@@ -348,7 +27,419 @@
             </ul>
         </div>
     </nav>
-</footer>
+    <nav id="hamburger-nav">
+        <div class="logo">Mohamed El Amine</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="assets/pictures/mohamed-el-amine-meghni.png" alt="Mohamed El Amine Meghni"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Mohamed El Amine Meghni</h1>
+            <p class="section__text__p2">Backend Developer</p>
+            <div class="btn-container">
+                <button
+                        class="btn btn-color-2"
+                        onclick="window.open('./assets/resume/resume.pdf')"
+                >
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img
+                        src="./assets/icons/linkedin-icon.svg"
+                        alt="My LinkedIn profile"
+                        class="icon"
+                        onclick="window.open('https://www.linkedin.com/in/mohamed-el-amine-meghni-1684a41a3', '_blank')"
+                />
+                <img
+                        src="./assets/icons/github-icon.svg"
+                        alt="My Github profile"
+                        class="icon"
+                        onclick="window.open('https://github.com/GTS-MEGHNI', '_blank')"
+                />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img
+                        src="./assets/pictures/coding-illustration.jpg"
+                        alt="Profile picture"
+                        class="about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img
+                                src="./assets/icons/experience-icon.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <h3>Experience</h3>
+                        <p><span style="font-weight: 600">5</span> years <br/>Backend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img
+                                src="./assets/icons/education-icon.png"
+                                alt="Education icon"
+                                class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelors Degree<br/>M.Sc. Masters Degree</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        With more than 5 years of hands-on experience, I am a <span class="important">professional backend developer</span>
+                        specializing in
+                        <span class="important">Laravel</span>. My dedication lies in architecting solutions for medium
+                        and
+                        large-scale projects,
+                        showcasing proficiency in Back End Development and API design. As a senior Laravel developer I
+                        excel
+                        in meeting client requirements and contribute to business growth by delivering efficient and
+                        customized solutions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/icons/html-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/css-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/javascript-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/typescript-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/php-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/mysql-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/python-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frameworks & Libraries</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/icons/laravel-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Laravel</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/vue-js-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Vue.js</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/tailwind-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Tailwind</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/tensorflow-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>TensorFlow</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Tools & Technologies</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/icons/git-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/phpstorm-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>PhpStorm</h3>
+                                <p>Favourite IDE ❤️</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/insomnia-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Insomnia</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/postman-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Postman</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/swagger-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Swagger</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/aws-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Amazon</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/material-design-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Material Design</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/fluent-design-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Fluent Design</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/jira-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Jira</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/icons/slack-icon.svg" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Slack</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="projects-cards-container">
+            <div class="card">
+                <div class="image-container">
+                    <div class="image-gradient"></div>
+                    <img onclick="window.open('https://www.felhanout.dz', '_blank')"
+                         src="./assets/pictures/projects/felhanout.jpeg" alt="Project Image">
+                </div>
+                <h3>Felhanout</h3>
+                <p>Online ordering application for restaurants.</p>
+            </div>
+            <div class="card">
+                <div class="image-container">
+                    <div class="image-gradient"></div>
+                    <img
+                            onclick="window.open('https://www.sihaclub.com', '_blank')"
+                            src="./assets/pictures/projects/waheb-benmbarek.png" alt="Project Image">
+                </div>
+                <h3>Waheb Benmbarek</h3>
+                <p>Online Fitness Platform.</p>
+            </div>
+            <div class="card">
+                <div class="image-container">
+                    <div class="image-gradient"></div>
+                    <img onclick="window.open('./assets/pictures/projects/numisky-showcase.png')"
+                         src="assets/pictures/projects/numisky.jpg" alt="Project Image">
+                </div>
+                <h3>Numisky</h3>
+                <p>A platform designed for both local and international tourism.</p>
+            </div>
+            <div class="card">
+                <div class="image-container">
+                    <div class="image-gradient"></div>
+                    <img onclick="window.open('https://www.cerist.dz', '_blank')"
+                         src="./assets/pictures/projects/ai-cerist.jpg" alt="Project Image">
+                </div>
+                <h3>AI Solution (Cerist)</h3>
+                <p>Deep learning solution to predict future citation count for scientific publications.</p>
+            </div>
+            <div class="card">
+                <div class="image-container">
+                    <div class="image-gradient"></div>
+                    <img onclick="window.open('https://www.jexury.com', '_blank')"
+                         src="./assets/pictures/projects/jexury.png" alt="Project Image">
+                </div>
+                <h3>Jexury</h3>
+                <p>Online Jewelry Sales Platform.</p>
+            </div>
+            <div class="card">
+                <div class="image-container">
+                    <div class="image-gradient"></div>
+                    <img onclick="window.open('https://github.com/GTS-MEGHNI/3-SAT', '_blank')"
+                         src="./assets/pictures/projects/sat-3.png" alt="Project Image">
+                </div>
+                <h3>SAT 3</h3>
+                <p>SAT-3 solver with Java and JavaFx.</p>
+            </div>
+            <div class="card">
+                <div class="image-container">
+                    <div class="image-gradient"></div>
+                    <img onclick="window.open('https://github.com/GTS-MEGHNI/SNDL-LOG-ANALYZER', '_blank')"
+                         src="./assets/pictures/projects/sndl-log-analyzer.png" alt="">
+                </div>
+                <h3>SNDL Log Analyzer</h3>
+                <p>Analyze log files for information extraction.</p>
+            </div>
+            <div class="card">
+                <div class="image-container">
+                    <div class="image-gradient"></div>
+                    <img onclick="window.open('https://github.com/GTS-MEGHNI/small-compiler', '_blank')"
+                         src="./assets/pictures/projects/c-compiler.jpg" alt="">
+                </div>
+                <h3>Custom Compiler</h3>
+                <p>Small compiler written in C for educational purposes.</p>
+            </div>
+            <div class="card">
+                <div class="image-container">
+                    <div class="image-gradient"></div>
+                    <img onclick="window.open('https://github.com/GTS-MEGHNI/recipe-finder', '_blank')"
+                         src="./assets/pictures/projects/recipe-lookup.png" alt="">
+                </div>
+                <h3>Recipe Lookup</h3>
+                <p>A recipe lookup made by Vue.js.</p>
+            </div>
+        </div>
+
+        <!--    <div style="text-align: center; margin-top: 6rem">-->
+        <!--        <img class="illustration-image" width="600" src="./assets/illustrations/app-development.svg" alt="">-->
+        <!--    </div>-->
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <img
+                    src="./assets/icons/linkedin-icon.svg"
+                    alt="My LinkedIn profile"
+                    class="icon"
+                    title="https://www.linkedin.com/in/mohamed-el-amine-meghni-1684a41a3"
+                    onclick="window.open('https://www.linkedin.com/in/mohamed-el-amine-meghni-1684a41a3', '_blank')"
+            />
+            <img
+                    src="./assets/icons/github-icon.svg"
+                    alt="My Github profile"
+                    class="icon"
+                    title="https://github.com/GTS-MEGHNI"
+                    onclick="window.open('https://github.com/GTS-MEGHNI', '_blank')"
+            />
+            <img
+                    src="./assets/icons/gmail-icon.svg"
+                    alt="My Gmail Address"
+                    class="icon"
+                    title="meghni.mohamed.el.amine@gmail.com"
+                    onclick="window.open('mailto:meghni.mohamed.el.amine@gmail.com', '_blank')"
+            />
+            <img
+                    src="./assets/icons/whatsapp-icon.svg"
+                    alt="My Whatsapp"
+                    class="icon"
+                    onclick="window.open('https://wa.me/+213549136722', '_blank')"
+            />
+            <img
+                    src="./assets/icons/instagram-icon.svg"
+                    alt="My Instagram profile"
+                    class="icon"
+                    onclick="window.open('https://www.instagram.com/gts_meghni', '_blank')"
+            />
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container" style="margin: 0 auto">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+</div>
 <script src="main.js"></script>
 </body>
 </html>

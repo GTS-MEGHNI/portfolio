@@ -10,6 +10,11 @@
     #projects {
         height: fit-content;
     }
+    .projects-cards-container {
+        grid-template-columns: auto auto auto;
+        justify-items: center;
+
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -44,6 +49,11 @@
     }
     .about-containers {
         margin-top: 0;
+    }
+    .projects-cards-container {
+        grid-template-columns: auto auto;
+        justify-items: center;
+
     }
 }
 
@@ -105,5 +115,24 @@
     }
     .illustration-image {
         width: 300px;
+    }
+
+    .projects-cards-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projects-cards-container {
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+
+    .card p {
+        font-size: 12px;
     }
 }

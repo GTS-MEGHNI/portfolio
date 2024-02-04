@@ -11,6 +11,11 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -33,11 +38,10 @@ a,
 /* SECTIONS */
 
 section {
-    padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10rem;
+    /*margin: 0 10rem;*/
     box-sizing: border-box;
     min-height: fit-content;
+    margin-bottom: 10rem;
 }
 
 .section-container {
@@ -179,7 +183,7 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    /*height: 70vh;*/
 }
 
 .contact-info-upper-container {
