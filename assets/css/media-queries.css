@@ -53,8 +53,19 @@
     .projects-cards-container {
         grid-template-columns: auto auto;
         justify-items: center;
-
     }
+
+    .card h3 {
+        font-size: 18px;
+        width: max-content;
+    }
+
+    .card h4 {
+        font-size: 12px;
+        text-align: center;
+        width: max-content;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -126,13 +137,5 @@
     .projects-cards-container {
         grid-template-columns: auto;
         justify-items: center;
-    }
-
-    .card h3 {
-        font-size: 16px;
-    }
-
-    .card p {
-        font-size: 12px;
     }
 }

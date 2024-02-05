@@ -183,6 +183,7 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 4rem;
     /*height: 70vh;*/
 }
 

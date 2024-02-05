@@ -3,152 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/project-card.css">
     <title>Project Card</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0; /* Reset default margin */
-            padding: 0; /* Reset default padding */
-            box-sizing: border-box; /* Include padding and border in element's total width and height */
-        }
-
-        .card {
-            width: 300px;
-            border-radius: 8px;
-            padding: 20px;
-            margin: 20px;
-            background-color: #ffffff;
-            transition: box-shadow 0.3s ease-in-out;
-            position: relative;
-            overflow: hidden;
-            border: 1px solid #ddd;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
-        }
-
-        .card:hover {
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly larger shadow on hover */
-        }
-
-        .card .image-container {
-            width: 300px;
-            position: relative;
-            overflow: hidden;
-
-        }
-
-        .image-container:hover .image-gradient {
-            background: linear-gradient(to top, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 100%);
-        }
-
-        .card img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            display: block; /* Ensure images are displayed as blocks for better layout */
-            position: relative;
-            transition: transform .5s ease;
-        }
-
-
-        .card .image-gradient {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 100%);
-            z-index: 20;
-            opacity: 1;
-        }
-
-
-        .card img {
-            transition: transform .2s ease-in;
-        }
-
-        /* [3] Finally, transforming the image when container gets hovered */
-        .image-container:hover img {
-            transform: scale(1.02);
-        }
-
-        .card h3 {
-            margin-top: 10px;
-            font-size: 20px;
-            color: #333;
-            font-weight: bold; /* Make heading bold for better emphasis */
-        }
-
-        .card p {
-            margin-top: 10px;
-            font-size: 16px;
-            color: #666;
-            line-height: 1.5; /* Adjust line height for better readability */
-        }
-
-        .card .actions {
-            margin-top: 20px;
-        }
-
-        .card .actions button {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            background-color: #0078d4;
-            color: #fff;
-            cursor: pointer;
-            font-size: 16px;
-            margin-right: 10px;
-            transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-        }
-
-        .card .actions button:hover {
-            background-color: #005a9e;
-        }
-
-        .card .tech-chips {
-            margin-top: 10px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: .48rem;
-        }
-
-        .card .tech-chips .chip {
-            display: inline-block;
-            background-color: #0078d4;
-            color: #ffffff;
-            border-radius: 16px;
-            padding: 5px 10px;
-            margin-right: 5px;
-            font-size: 14px;
-            cursor: default;
-
-        }
-    </style>
 </head>
 <body>
-
-<div class="card">
+<div style="margin-bottom: 4rem"></div>
+<div style="max-width: 300px; margin: 0 auto;" class="card">
     <div class="image-container">
         <div class="image-gradient"></div>
-        <img src="./assets/pictures/projects/jexury.png" alt="Project Image">
+        <img onclick="window.open('https://www.jexury.com', '_blank')"
+             src="./assets/pictures/projects/jexury.png" alt="Project Image">
     </div>
-    <h3>Jexury</h3>
-    <p>Online Jewelry Sales Platform</p>
-    <div class="tech-chips">
-        <span class="chip">HTML</span>
-        <span class="chip">CSS</span>
-        <span class="chip">JavaScript</span>
-        <span class="chip">HTML</span>
-        <span class="chip">CSS</span>
-        <span class="chip">JavaScript</span>
-        <span class="chip">HTML</span>
-        <span class="chip">CSS</span>
-        <span class="chip">JavaScript</span>
-        <span class="chip">HTML</span>
-        <span class="chip">CSS</span>
-        <span class="chip">JavaScript</span>
+    <div class="project-card-headers-section">
+        <h3>Waheb Benmbarek</h3>
+        <h4>Backend Development</h4>
+    </div>
+    <div>
+        <p>Online Jewelry Sales Platform.</p>
+    </div>
+    <div class="actions-buttons-container">
+        <button class="project-card-action-button">Visit Website</button>
     </div>
 </div>
-
 </body>
 </html>
