@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d3c8211-3b2e-4169-a2de-d4d04a537d30" name="Changes" comment="Update Lychat project image onclick action">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp_\php\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2btdc0idYQs67D3RdipVVNDaTP4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.project-card-prototype.html.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MEGHN/OneDrive/Bureau/Projects/portfolio/assets/pictures/projects&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MEGHN\OneDrive\Bureau\Projects\portfolio\assets\pictures\projects" />
+      <recent name="C:\Users\MEGHN\OneDrive\Bureau\Projects\portfolio" />
+      <recent name="C:\Users\MEGHN\OneDrive\Bureau\Projects\portfolio\assets\icons" />
+      <recent name="C:\Users\MEGHN\OneDrive\Bureau\Projects\portfolio\assets\resume" />
+      <recent name="C:\Users\MEGHN\OneDrive\Bureau\Projects\portfolio\assets\illustrations" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MEGHN\OneDrive\Bureau\Projects\portfolio\assets\css" />
+      <recent name="C:\Users\MEGHN\OneDrive\Bureau\Projects\portfolio\assets\resume" />
+      <recent name="C:\Users\MEGHN\OneDrive\Bureau\Projects\portfolio\assets\profile-pictures" />
+      <recent name="C:\Users\MEGHN\OneDrive\Bureau\Projects\portfolio\assets\icons" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.project-card-prototype.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/portfolio/portfolio/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="project-card-prototype.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/portfolio/portfolio/project-card-prototype.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.project-card-prototype.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PS-241.15989.102" />
+        <option value="bundled-php-predefined-ba97393d7c68-c76157a7178b-com.jetbrains.php.sharedIndexes-PS-241.15989.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d3c8211-3b2e-4169-a2de-d4d04a537d30" name="Changes" comment="" />
+      <created>1707038390536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707038390536</updated>
+      <workItem from="1707038392825" duration="12605000" />
+      <workItem from="1707052185690" duration="4258000" />
+      <workItem from="1707056566103" duration="1020000" />
+      <workItem from="1707057636735" duration="15931000" />
+      <workItem from="1707076064320" duration="14706000" />
+      <workItem from="1707122743026" duration="9568000" />
+      <workItem from="1707138400590" duration="81000" />
+      <workItem from="1707146531197" duration="592000" />
+      <workItem from="1707160560270" duration="6216000" />
+      <workItem from="1707298077916" duration="497000" />
+      <workItem from="1707335265299" duration="339000" />
+      <workItem from="1707383310206" duration="12000" />
+      <workItem from="1707413415738" duration="1944000" />
+      <workItem from="1720945619670" duration="389000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add navigation bar">
+      <option name="closed" value="true" />
+      <created>1707055105361</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707055105361</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add profile, about, experience sections">
+      <option name="closed" value="true" />
+      <created>1707065503459</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707065503460</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add rest of the sections">
+      <option name="closed" value="true" />
+      <created>1707071380503</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707071380503</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update design on mobile">
+      <option name="closed" value="true" />
+      <created>1707075071793</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707075071793</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finalize portfolio">
+      <option name="closed" value="true" />
+      <created>1707090832825</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707090832825</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update project card UI">
+      <option name="closed" value="true" />
+      <created>1707130828501</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707130828502</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update resume">
+      <option name="closed" value="true" />
+      <created>1707134197880</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707134197880</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add Lychat project">
+      <option name="closed" value="true" />
+      <created>1707414765725</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707414765725</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update Lychat project image onclick action">
+      <option name="closed" value="true" />
+      <created>1707415319052</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707415319052</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add navigation bar" />
+    <MESSAGE value="Add profile, about, experience sections" />
+    <MESSAGE value="Add rest of the sections" />
+    <MESSAGE value="Update design on mobile" />
+    <MESSAGE value="Finalize portfolio" />
+    <MESSAGE value="Update project card UI" />
+    <MESSAGE value="Add Symfony to the stack" />
+    <MESSAGE value="Update resume" />
+    <MESSAGE value="Add Lychat project" />
+    <MESSAGE value="Update Lychat project image onclick action" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Lychat project image onclick action" />
+  </component>
+</project>
