@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d3c8211-3b2e-4169-a2de-d4d04a537d30" name="Changes" comment="Update Lychat project image onclick action">
+      <change afterPath="$PROJECT_DIR$/assets/pictures/projects/future-power-store.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,9 +35,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-  </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp_\php\php.exe" />
   <component name="ProjectColorInfo">{
@@ -128,6 +128,7 @@
       <workItem from="1707383310206" duration="12000" />
       <workItem from="1707413415738" duration="1944000" />
       <workItem from="1720945619670" duration="389000" />
+      <workItem from="1720947171511" duration="4763000" />
     </task>
     <task id="LOCAL-00001" summary="Add navigation bar">
       <option name="closed" value="true" />
